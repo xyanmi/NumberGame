@@ -1,0 +1,32 @@
+@media (max-width: 768px) {
+    .settings-panel {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .node {
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
+    }
+    
+    header h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .game-container {
+        padding: 15px;
+    }
+    
+    .node {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5rem;
+    }
+    
+    .display-field {
+        padding: 15px;
+    }
+}

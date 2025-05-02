@@ -1,0 +1,143 @@
+
+.default-theme {
+    background: linear-gradient(135deg, #b9eba2 0%, #d0e6d4 100%);
+}
+
+
+.dark-theme {
+    background: linear-gradient(135deg, #232526 0%, #414345 100%);
+}
+
+
+.neon-theme {
+    background: linear-gradient(135deg, #ff00cc 0%, #333399 100%);
+}
+
+
+.pastel-theme {
+    background: linear-gradient(135deg, #ffd1ff 0%, #fad0c4 100%);
+}
+
+body.ocean-theme {
+    background: linear-gradient(135deg, #0083B0 0%, #00B4DB 100%);
+}
+
+body.ocean-theme .game-container {
+    background-color: rgba(240, 248, 255, 0.9);
+    box-shadow: 0 10px 30px rgba(0, 131, 176, 0.3);
+}
+
+body.ocean-theme .node {
+    background: linear-gradient(135deg, #0083B0 0%, #00B4DB 100%);
+    box-shadow: 0 5px 15px rgba(0, 180, 219, 0.5);
+}
+
+body.ocean-theme .display-field {
+    background: linear-gradient(135deg, #d0dce1 0%, #00B4DB 100%);
+}
+
+body.forest-theme {
+    background: linear-gradient(135deg, #134E5E 0%, #71B280 100%);
+}
+
+body.forest-theme .game-container {
+    background-color: rgba(245, 255, 245, 0.9);
+    box-shadow: 0 10px 30px rgba(113, 178, 128, 0.3);
+}
+
+body.forest-theme .node {
+    background: linear-gradient(135deg, #1684a2 0%, #71B280 100%);
+    box-shadow: 0 5px 15px rgba(113, 178, 128, 0.5);
+}
+
+body.forest-theme .display-field {
+    background: linear-gradient(135deg, #57bebc 0%, #71B280 100%);
+}
+
+body.sunset-theme {
+    background: linear-gradient(135deg, #FF416C 0%, #FF9966 100%);
+}
+
+body.sunset-theme .game-container {
+    background-color: rgba(255, 249, 245, 0.9);
+    box-shadow: 0 10px 30px rgba(255, 65, 108, 0.3);
+}
+
+body.sunset-theme .node {
+    background: linear-gradient(135deg, #FF416C 0%, #FF9966 100%);
+    box-shadow: 0 5px 15px rgba(255, 65, 108, 0.5);
+}
+
+body.sunset-theme .display-field {
+    background: linear-gradient(135deg, #ec8fa5 0%, #ddc0b1 100%);
+}
+
+body.minimal-theme {
+    background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+}
+
+body.minimal-theme .game-container {
+    background-color: white;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eee;
+}
+
+body.minimal-theme .node {
+    background: linear-gradient(135deg, #3f3f3f 0%, #999999 100%);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+body.minimal-theme .display-field {
+    background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+}
+
+.animate-neon .node {
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px var(--primary-color, #ff00ff);
+}
+
+.animate-neon .node:hover {
+    box-shadow: 0 0 15px var(--primary-color, #ff00ff), 0 0 30px var(--secondary-color, #00ffff);
+}
+
+.animate-ocean .game-container {
+    background-image: linear-gradient(to bottom, rgba(240, 248, 255, 0.7), rgba(240, 248, 255, 0.3));
+}
+
+.animate-forest .node {
+    transition: transform 0.3s ease;
+}
+
+.animate-forest .node:hover {
+    transform: scale(1.05);
+}
+
+.animate-sunset .game-container {
+    background-image: linear-gradient(to bottom right, rgba(255, 65, 108, 0.1), rgba(255, 153, 102, 0.1));
+}
+
+
+.theme-preview {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 2px solid #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.theme-option {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.2s;
+}
+
+.theme-option:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.theme-option.active {
+    background-color: rgba(0, 0, 0, 0.1);
+}
